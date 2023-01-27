@@ -1,4 +1,3 @@
-#Create a remind_me() function; this one reminds you of the PIPS exam date
 remind_me <- function(){
   inperson <- "The in-person exam is on the 3rd of february, 2023."
   takehome <- "The take-home part of the exam is due before midnight on the 3rd of february, 2023."
