@@ -1,0 +1,11 @@
+make_art <- function(seed = NULL) { 
+  set.seed(seed) #Optional set.seed
+  random <- sample(colours(), 5, FALSE) 
+  palette <- colorRampPalette(random)
+  image(
+    x = matrix(1:1000, ncol = 1),
+    col = palette(1000),
+    useRaster = TRUE,
+    axes = FALSE
+  )
+}
